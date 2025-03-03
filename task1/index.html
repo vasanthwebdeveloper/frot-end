@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Stats Widget</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center items-center h-screen bg-gray-100">
+    <div class="flex space-x-4">
+        <div class="bg-white p-4 rounded-2xl shadow-md w-48 text-center">
+            <p class="text-gray-500 flex justify-center items-center space-x-2">
+                <img src="https://cdn-icons-png.flaticon.com/512/3523/3523883.png" class="w-5 h-5" alt="Revenue Icon">
+                <span>Revenue</span>
+            </p>
+            <p class="text-xl font-bold">$<span id="revenue">2047</span></p>
+            <p class="text-red-500 text-sm">⬇ 10%</p>
+        </div>
+        <div class="bg-white p-4 rounded-2xl shadow-md w-48 text-center">
+            <p class="text-gray-500 flex justify-center items-center space-x-2">
+                <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" class="w-5 h-5" alt="Orders Icon">
+                <span>Orders</span>
+            </p>
+            <p class="text-xl font-bold" id="orders">356</p>
+            <p class="text-green-500 text-sm">⬆ 20%</p>
+        </div>
+        <div class="bg-white p-4 rounded-2xl shadow-md w-48 text-center">
+            <p class="text-gray-500 flex justify-center items-center space-x-2">
+                <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" class="w-5 h-5" alt="Dine-in Icon">
+                <span>Dine in</span>
+            </p>
+            <p class="text-xl font-bold" id="dine-in">220</p>
+            <p class="text-green-500 text-sm">⬆ 10%</p>
+        </div>
+        <div class="bg-white p-4 rounded-2xl shadow-md w-48 text-center">
+            <p class="text-gray-500 flex justify-center items-center space-x-2">
+                <img src="https://cdn-icons-png.flaticon.com/512/1046/1046793.png" class="w-5 h-5" alt="Takeaway Icon">
+                <span>Take away</span>
+            </p>
+            <p class="text-xl font-bold" id="take-away">135</p>
+            <p class="text-red-500 text-sm">⬇ 5%</p>
+        </div>
+    </div>
+
+</body>
+</html>
